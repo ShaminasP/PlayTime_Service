@@ -16,7 +16,7 @@ mongoose.connect(process.env.MongoUrl, () =>
 
 
 const corsOptions = {
-  origin: 'http://localhost:1234',
+  origin: 'https://master.d3evuvw83vy07n.amplifyapp.com',
   methods: 'GET,POST,PATCH,PUT,DELETE', 
   preflightContinue: true,
   optionsSuccessStatus: 200,
